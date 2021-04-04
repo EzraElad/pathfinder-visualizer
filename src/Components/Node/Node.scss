@@ -1,0 +1,17 @@
+.node {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 1;
+  &.wall {
+    background-color: #000;
+  }
+  &.start {
+    background-color: green;
+  }
+  &.end {
+    background-color: red;
+  }
+}

@@ -1,0 +1,13 @@
+.grid {
+  position: relative;
+  width: 1200px;
+  height: inherit;
+  line-height: 0;
+  margin: 100px auto;
+  button {
+    position: absolute;
+    top: -100px;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+}
